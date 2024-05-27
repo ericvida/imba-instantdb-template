@@ -1,0 +1,14 @@
+{
+  "name": "2024-05-imba-instant",
+  "scripts": {
+    "dev": "imba -w index.html",
+    "build": "imba build index.html",
+    "preview": "npx vite preview"
+  },
+  "devDependencies": {
+    "imba": "latest"
+  },
+  "dependencies": {
+    "@instantdb/core": "^0.10.14"
+  }
+}
