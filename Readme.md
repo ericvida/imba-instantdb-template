@@ -1,5 +1,5 @@
-This project combines InstantDB (a very easy database),
-with Imba (A very easy and fun web programming language)
+Full-stack doesn't get easier than Imba + InstantDB.
+You'll be up and running in 10 easy steps.
 ![App Screenshot](./screenshot-01.jpg)
 To setup, Make an account at [instantdb.com](https://instantdb.com) then follow the steps below.
 1. Create `+ new app`
