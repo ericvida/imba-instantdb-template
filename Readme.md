@@ -4,7 +4,7 @@ You'll be up and running in 10 easy steps.
 To setup, Make an account at [instantdb.com](https://instantdb.com) then follow the steps below.
 1. Create `+ new app`
 2. Click on you newly created app
-3. Copy/Paste APP's ID in as a `string` value in `const INSTANT_APP_ID = "YOUR APPID HERE"` on line 1 of `/src/main.imba`. (Do not leave APP ID here in production or on a public repository. You must place the APP ID in an Enviroment Variable for hosting.)
+3. Copy/Paste APP's ID in as a `string` value in `const INSTANT_APP_ID = "YOUR APPID HERE"` on line 1 of `/src/main.imba`.
 4. Click on `Explorer`
 5. Click on `create a namespace` or `+ create` and create a namespace called notes 
 6. Click on the newly created `notes` namespace.
