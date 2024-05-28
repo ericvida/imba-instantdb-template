@@ -1,4 +1,4 @@
-const INSTANT_APP_ID = "YOUR APPID HERE" # replace with your instantdb app id
+const INSTANT_APP_ID = "766cb5a0-1967-4974-967b-5bce647b9cc4" # replace with your instantdb app id
 
 import {init, tx, id} from '@instantdb/core'
 
