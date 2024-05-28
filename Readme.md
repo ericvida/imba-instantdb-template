@@ -1,16 +1,39 @@
-Full-stack doesn't get easier than Imba + InstantDB.
-You'll be up and running in 10 easy steps.
+# Full-stack Development Made Easy with Imba + InstantDB
+
+Get your app up and running in 1 minute with Imba and InstantDB.
+
 ![App Screenshot](./screenshot-01.jpg)
-To setup, Make an account at [instantdb.com](https://instantdb.com) then follow the steps below.
-1. Create `+ new app`
-2. Click on you newly created app
-3. Copy/Paste APP's ID in as a `string` value in `const INSTANT_APP_ID = "YOUR APPID HERE"` on line 1 of `/src/main.imba`. (For safety, do not expose your APP ID on a public repo or web hosting service before setting up propper [user permissions](https://www.instantdb.com/docs/permissions) on your app.)
-4. Click on `Explorer`
-5. Click on `create a namespace` or `+ create` and create a namespace called notes 
-6. Click on the newly created `notes` namespace.
-7. Click on `Edit Schema` button.
-8. Click on `+ New attributes` and name it `content`. You may leave constraints unchecked 9. Click on `Create attribute`
-9.  Clone this repository `git clone https://github.com/ericvida/imba-instantdb-template.git`
-10. run `npm install` and then `npm run dev` and your Notes CRUD app should be running on localhost:3000 fully powered by Imba and InstantDB.
-![](./screenshot-02.jpg)
-![](./screenshot-gif.gif)
+
+## Setup Imba Project
+1. **Clone the Repository**:
+    - Run `git clone https://github.com/ericvida/imba-instantdb-template.git app-folder-name`.
+2. **Open directory**
+   `cd ./app-folder-name`
+3. **Install Dependencies**:
+    - run `npm install`.
+4.  **Run the App**:
+    - Execute `npm run dev`.
+    - Your Notes CRUD app should now be running on `localhost:3000`, fully powered by Imba and InstantDB.
+
+## Setup InstantDB
+**Prerequisite**: Sign up and login to [instantdb.com](https://instantdb.com).
+
+1. **Create a New App**.
+   - Click on `+ new app`
+2. **Copy Your APP ID**:
+    - Click on your newly created app.
+    - Copy the APP's ID and paste it as a string value in `const INSTANT_APP_ID = "YOUR APP ID HERE"` on line 1 of `/src/main.imba`.
+    - **Note**: For security, do not expose your APP ID in a public repository or web hosting service before setting up proper [user permissions](https://www.instantdb.com/docs/permissions) on your app.
+3. **Click on `Explorer` Tab**
+4. **Create a `notes` Namespace**:
+    - Click on `create a namespace` or `+ create`.
+    - Name the new namespace `notes` in lowercase.
+5. **Click on notes**
+6. Click on the `Edit Schema` button.
+    - Within your newly created `notes` namespace.
+7. **Click on `+ New attribute`**
+8. **Name it `content`**
+   - Leave constraints unchecked.
+9.  **Click on `Create Attribute`**
+![App Screenshot](./screenshot-02.jpg)
+![App Screenshot](./screenshot-gif.gif)
