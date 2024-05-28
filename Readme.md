@@ -26,7 +26,7 @@ npm run dev
 **Prerequisite**: Sign up and login to [instantdb.com](https://instantdb.com).
 ![App Screenshot](./screenshot-02.jpg)
 1. Click on `+ new app`
-2. Copy APP's ID and paste it into string on line 1 of [src/main.imba] file.
+2. Copy APP's ID and paste it into string on line 1 of [src/main.imba]() file.
     - **Note**: For security, do not expose your APP ID in a public repository or web hosting service before setting up proper [user permissions](https://www.instantdb.com/docs/permissions) on your app.
 3. Open the `Explorer` Tab on your App dashboard
 4. Click on `+ create` and create a namespace called **notes** in lowercase.
