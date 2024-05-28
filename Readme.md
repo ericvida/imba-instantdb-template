@@ -1,4 +1,4 @@
-# Full-stack Development Made Easy with Imba + InstantDB
+# Imba + InstantDB — The simplest web-stack.
 
 Get your app up and running in 1 minute with Imba and InstantDB.
 
