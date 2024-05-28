@@ -13,3 +13,4 @@ To setup, Make an account at [instantdb.com](https://instantdb.com) then follow 
 9.  Clone this repository `git clone https://github.com/ericvida/imba-instantdb-template.git`
 10. run `npm install` and then `npm run dev` and your Notes CRUD app should be running on localhost:3000 fully powered by Imba and InstantDB.
 ![](./screenshot-02.jpg)
+![](./screenshot-gif.gif)

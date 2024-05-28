@@ -1,4 +1,4 @@
-const INSTANT_APP_ID = "" # replace with your instantdb app id
+const INSTANT_APP_ID = "" # place your instantdb App ID within the quotes
 
 import {init, tx, id} from '@instantdb/core'
 
