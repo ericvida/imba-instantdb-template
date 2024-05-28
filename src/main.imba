@@ -1,9 +1,4 @@
-###
-Go to instantdb.com, create namespace, paste APP ID of namespace into INSTANT_APP_ID const below.
-Under explorer, create a collection called notes, with property called content, 
-then this app should work.
-###
-const INSTANT_APP_ID = "YOUR APPID HERE" 
+const INSTANT_APP_ID = "YOUR APPID HERE" # replace with your instantdb app id
 
 import {init, tx, id} from '@instantdb/core'
 
