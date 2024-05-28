@@ -24,7 +24,7 @@ npm run dev
 
 ## Setup InstantDB
 **Prerequisite**: Sign up and login to [instantdb.com](https://instantdb.com).
-
+![App Screenshot](./screenshot-02.jpg)
 1. Click on `+ new app`
 2. Copy APP's ID and paste it into string on line 1 of `/src/main.imba`.
     - **Note**: For security, do not expose your APP ID in a public repository or web hosting service before setting up proper [user permissions](https://www.instantdb.com/docs/permissions) on your app.
@@ -37,5 +37,4 @@ npm run dev
    - Leave constraints unchecked.
 9. Click on `Create Attribute`
 10. Click here to view your working app in your browser: [https://localhost:3000](https://localhost:3000)
-![App Screenshot](./screenshot-02.jpg)
 ![App Screenshot](./screenshot-gif.gif)
