@@ -24,16 +24,20 @@ npm run dev
 
 ## Setup InstantDB
 **Prerequisite**: Sign up and login to [instantdb.com](https://instantdb.com).
+
+![screenshot-01](./screenshot-01.jpg)
+
 ![App Screenshot](./screenshot-02.jpg)
+
 1. Click on `+ new app`
-2. Copy APP's ID and paste it into string on line 1 of [src/main.imba]() file.
-3. Open the `Explorer` Tab on your App dashboard
-4. Click on `+ create` and create a namespace called **notes** in lowercase.
-5. Click on the new `notes` namespace.
-6. Click on the `Edit Schema` button on the top right.
-7. Click on `+ New attribute`
-8. Type **content** in Name input field.
-   - Leave constraints unchecked.
-9. Click on `Create Attribute`
-10. Click here to view your working app in your browser: [https://localhost:3000](https://localhost:3000)
-![App Screenshot](./screenshot-gif.gif)
+2. Copy APP's ID and paste it as a value for INSTANT_APP_ID on line 1 of [src/main.imba]() file and save the file.
+
+## Use App
+
+1. With the local server running, open [https://localhost:3000](https://localhost:3000)
+2. Enter your email to receive a magic login code in your inbox
+3. Enter the magic code in the app and click [Login] button.
+4. you can create, read, edit, delete notes, and logout right out of the box.
+5. Make great things!
+
+![App Screenshot](./screen-recording.gif)
