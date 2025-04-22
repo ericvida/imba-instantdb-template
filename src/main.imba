@@ -2,11 +2,8 @@ const INSTANT_APP_ID = "REPLACE_WITH_YOUR_PUBLIC_APP_ID"
 import 'imba/preflight.css'
 import * as PH from 'imba-phosphor-icons'
 import {init, tx, id} from '@instantdb/core'
-import _schema from './schema.imba'
-
 # Instant DB class
-global.DB = init({ appId: INSTANT_APP_ID, _schema});
-
+global.DB = init({ appId: INSTANT_APP_ID});
 # FRONT-END APP STATE
 global.FE = {
 	user: null

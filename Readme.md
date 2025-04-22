@@ -25,19 +25,28 @@ npm run dev
 ## Setup InstantDB
 **Prerequisite**: Sign up and login to [instantdb.com](https://instantdb.com).
 
+1. Click on + New App button
+2. Enter the name of your app
+3. and click on "Let's go!"
+4. Click on Home or Explorer to view your APP ID
+
 ![screenshot-01](./screenshot-01.jpg)
+
+5. Copy Public App ID
 
 ![App Screenshot](./screenshot-02.jpg)
 
-1. Click on `+ new app`
-2. Copy APP's ID and paste it as a value for INSTANT_APP_ID on line 1 of [src/main.imba]() file and save the file.
+6. Paste the Public App ID on line 1 on main.imba and your app is ready to go.
+
+![](./screenshot-03.jpg)
 
 ## Use App
 
-1. With the local server running, open [https://localhost:3000](https://localhost:3000)
-2. Enter your email to receive a magic login code in your inbox
-3. Enter the magic code in the app and click [Login] button.
-4. you can create, read, edit, delete notes, and logout right out of the box.
-5. Make great things!
+1. If you already followed (Setup Imba Project) steps, your localhost server should be running.
+2. Open [https://localhost:3000](https://localhost:3000) in your browser.
+3. Enter your email to receive a magic login code in your inbox
+4. Enter the magic code in the app and click [Login] button.
+5. you can create, read, edit, delete notes, and logout right out of the box.
+6. Make great things!
 
-![App Screenshot](./screen-recording.gif)
+![App Screenshot](screenshot-04.gif)
