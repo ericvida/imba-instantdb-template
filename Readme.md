@@ -30,15 +30,15 @@ npm run dev
 3. and click on "Let's go!"
 4. Click on Home or Explorer to view your APP ID
 
-![App Screenshot](screenshot-01.jpg)
+![screenshot](screenshot-01.jpg)
 
 5. Copy Public App ID
 
-![App Screenshot](screenshot-02.jpg)
+![screenshot](screenshot-02.jpg)
 
 6. Paste the Public App ID on line 1 on main.imba and your app is ready to go.
 
-![App Screenshot](screenshot-03.jpg)
+![screenshot](screenshot-03.jpg)
 
 ## Use App
 
@@ -49,4 +49,4 @@ npm run dev
 5. you can create, read, edit, delete notes, and logout right out of the box.
 6. Make great things!
 
-![App Screenshot](screenshot-04.gif)
+![screenshot](screenshot-04.gif)
