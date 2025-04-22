@@ -2,7 +2,7 @@
 
 Get your app up and running in 1 minute with Imba and InstantDB.
 
-![App Screenshot](./screenshot-01.jpg)
+![App Screenshot](screenshot-04.gif)
 
 ## Setup Imba Project
 1. **Clone Repo**
@@ -30,11 +30,11 @@ npm run dev
 3. and click on "Let's go!"
 4. Click on Home or Explorer to view your APP ID
 
-![screenshot-01](./screenshot-01.jpg)
+
 
 5. Copy Public App ID
 
-![App Screenshot](./screenshot-02.jpg)
+
 
 6. Paste the Public App ID on line 1 on main.imba and your app is ready to go.
 
