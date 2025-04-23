@@ -36,7 +36,7 @@ npm run dev
 
 ![screenshot](screenshot-02.jpg)
 
-6. Paste the Public App ID on line 1 on main.imba and your app is ready to go.
+6. Paste the Public App ID on line 1 on index.imba and your app is ready to go.
 
 ![screenshot](screenshot-03.jpg)
 
