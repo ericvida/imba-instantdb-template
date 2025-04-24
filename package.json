@@ -4,11 +4,13 @@
   "type": "module",
   "devDependencies": {
     "bimba-cli": "latest",
-    "imba": "latest"
+    "imba": "latest",
+    "@types/bun": "latest"
   },
   "dependencies": {
     "@instantdb/core": "^0.18.9",
-    "imba-phosphor-icons": "^2.2.0"
+    "imba-phosphor-icons": "^2.2.0",
+    "instantdb-imba": "latest"
   },
   "scripts": {
     "dev": "bunx bimba src/index.imba --outdir public --watch --clearcache",
