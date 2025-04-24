@@ -53,9 +53,9 @@ class App
 			# onerror: do(err) console.log err
 
 	def logout
-		db = undefined
 		delete imba.locals.appId
 		db.unsubscribe 'user.todos'
+		db = undefined
 		db.auth.logout!
 
 	def toggle idx
